@@ -1,0 +1,13 @@
+For explaining the github workflow, first I will start telling by Branches.
+In GitHub branches are 2 types. i) Customer branches ii) Release Branches
+
+customer branch
+===============
+For each and evry customer we need to maintain a separate branch. That is customer branch.
+ex- Lets say, we are developing a common s.w for banking purpose. So if we have 2 customer like sbi & hdfc then for them we will create 2 separate branches form the common code.
+
+Release Branach
+===============
+For each customer
+
+Govt. Sc. College, Chatrapur
