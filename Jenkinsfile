@@ -7,6 +7,11 @@ pipeline {
                 sh 'mvn --version'
             }
         }
+        stage('Build the project'){
+            steps {
+                sh *jar -cvf test.war *'
+            }
+        }
         stage('Test the code') {
             steps {
                 sh 'mvn clean tets'
